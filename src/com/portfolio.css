@@ -1,0 +1,104 @@
+/* portfolio.css */
+@keyframes marquee {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes marqueeHovered {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(-50%);
+      opacity: 1;
+    }
+  }
+  
+  .marquee-container {
+    animation: marquee 10s linear infinite;
+  }
+  
+  .marquee-container.hovered {
+    animation: marqueeHovered 10s linear infinite;
+  }
+  
+  /* portfolio.css */
+@keyframes marqueeReverse {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
+  .umer .marquee-container {
+    animation: marqueeReverse 10s linear infinite;
+  }
+  /* portfolio.css */
+
+/* Reuse the existing animation for the marquee effect */
+@keyframes marquee {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+}
+
+/* Apply the same animation to the marquee-container in the "umer" section */
+.umer .marquee-container {
+    animation: marquee 10s linear infinite;
+}
+/* portfolio.css */
+
+/* Define the animation for larger screens */
+@keyframes marquee {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+}
+
+/* Apply the animation to the marquee-container */
+.marquee-container {
+    animation: marquee 10s linear infinite;
+}
+
+/* Define media query to stop animation on screens smaller than 768px (typical mobile screens) */
+@media (max-width: 768px) {
+    /* Stop the animation */
+    .marquee-container {
+        animation: none;
+    }
+}
+@media screen and (max-width:767px) {
+  .portfolioma{
+    margin-top: 86px;
+
+  }
+  
+}

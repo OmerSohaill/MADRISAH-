@@ -1,0 +1,178 @@
+/* slider.css */
+
+.slider-container {
+    max-width: 600px;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide {
+    min-width: 100%;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Left and Right arrows styling */
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .left-arrow {
+    left: 10px;
+  }
+  
+  .right-arrow {
+    right: 10px;
+  }
+  
+  /* Caption styling */
+  .caption {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+  }
+
+    .box2{
+   
+        display: inline-block;
+      
+       height: 130px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #171F38;
+        color:white;
+        margin-left: 22px;
+      
+      }
+      .box2:hover{
+        background-color: #01D293;
+        color:black;
+        margin-top:-11px ;
+        
+      
+      }
+  .bpx{
+    position: relative;
+    bottom:145px;
+  }
+     
+  .yo{
+    margin-left: 23px;
+
+  }
+  .bx{
+    color:#01D293;
+    font-size: 32px;
+  }
+  .bow{
+    margin-top: 13px;
+  }
+  .sa{
+    background-color: red;
+    margin-top: 11px;
+  }
+  .sa:hover{
+    background-color: rgb(123, 68, 68);
+  
+  }
+  .vs{
+    color:#41537D;
+  }
+
+  .jk{
+    color:#01D293
+
+  }
+  @media screen and (max-width:767px) {
+    .bpx{
+      bottom:370px;
+
+    }
+    .bx{
+      font-size: 18px;
+    }
+  
+    
+    
+  }
+  @media screen and (max-width:1024px) and (min-width:768px) {
+    .slider{
+      height:899px;
+
+    }
+    .bpx{
+      bottom:740px;
+    }
+  }
+
+  @media screen and (max-width:767px) {
+    .bm{
+    margin-top: 400px;
+   
+    }
+    
+  }
+
+  @media screen and (max-width:280px) {
+   .box2{
+  width:auto;
+   }
+    .bpx{
+      display: none;
+    }
+    body{
+      padding:0px;
+    }
+  }
+  @media screen  and (max-width:415px){
+    .bpx{
+      display: none;
+    }
+  
+    
+    
+  }
+  @media screen and (max-width:1024px) and (min-width:768px) {
+    .as{
+      position: relative;
+
+      bottom:299px;
+    }
+    
+  }
+
+  @media screen and (max-width:767px) {
+    .bm{
+      bottom:0px;
+    }
+    
+  }
+  @media screen and (max-width:1200px) and (min-width:767px) {
+    .bm{
+        position: relative;
+        top:500px;
+    }
+    
+  }

@@ -1,0 +1,150 @@
+.unline{
+    border: none;
+height:3px;
+background-color: black;
+width:30%;
+}
+.aboutusround{
+    border:solid;
+    width:150px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:42px;
+    margin-top: 32px;
+
+}
+.aboutusround:hover{
+    background-color: black;
+    color:white;
+
+}
+
+.aboutbox{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.aboutusimg{
+    height: 500px;
+    width:500px;
+}
+.About{
+    padding:100px;
+
+}
+.aboutwho{
+    font-size: 32px;
+    font-weight: bold;
+}
+.aboutallah{
+    font-size: 24px;
+    margin-top: 32px;
+}
+.aboutwelcome{
+    margin-top: 34px;
+}
+
+@media screen and (max-width:767px) {
+    .aboutone{
+        position: relative;
+        top:700px;
+    }
+    .abouttwo{
+        position: relative;
+        bottom: 400px;
+    }
+    .About{
+        padding: 100px;
+    }
+    
+}
+@media screen and (max-width:351px) {
+    .aboutone{
+        top:660px
+    }
+    .abouttwo{
+        bottom:600px;
+    }
+    .About{
+        padding: 30px;
+    }
+
+
+}
+@media screen and (max-width:400px) and (min-width:350px) {
+    .aboutone{
+        top:680px;
+
+    }
+    .abouttwo{
+        bottom:900px;
+
+    }
+    .About{
+
+    }
+    
+}
+
+@media screen and (max-width:500px) and (min-width:400px) {
+    .aboutone{
+        top:700px;
+
+    }
+    .abouttwo{
+        bottom:700px;
+
+    }
+    .About{
+
+    }
+    
+}
+
+@media screen and (max-width:1200px) and (min-width:767px) {
+    .About{
+        padding:80px;
+    }
+    
+}
+@media screen and (max-width:250px) {
+    .aboutone{
+        top:1100px
+    }
+    
+}
+.fadeInLeft {
+    animation: fadeInLeft 1s ease forwards;
+  }
+  
+  .fadeInRight {
+    animation: fadeInRight 1s ease forwards;
+  }
+  
+  @keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  

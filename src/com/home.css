@@ -1,0 +1,163 @@
+body{
+    padding-left:0px;
+    padding-right: 0px;
+}
+.Home{
+    background-image: url('https://images.unsplash.com/photo-1680801935072-3f8cb58cc002?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    height:90vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    
+}
+.HomeBox{
+    position: absolute;
+    height: 90vh;
+    width:100%;
+    opacity: 0.2;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.homelines{
+    position: relative;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    justify-content: center;
+    align-items: center;
+}
+.homehelp{
+    font-size: 42px;
+    font-weight: bold;
+}
+.homebenefit{
+    font-size: 54px;
+    font-weight: bolder;
+
+}
+.homeislamicedu{
+    text-align: justify;
+ 
+    width: 400px;
+    margin-top: 32px;
+}
+
+.homeexplore {
+    border: solid;
+    margin-top: 23px;
+    width: 140px;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 32px;
+    background-color: #CB4335;
+    color: white;
+    transition: transform 0.3s ease; /* Adding transition for smooth effect */
+}
+
+.homeexplore:hover {
+    transform: rotate(45deg); /* Rotate by 45 degrees on hover */
+}
+.homelines{
+    padding:0px 74px 0px 74px;
+}
+
+
+@media screen and (max-width:767px) and (min-width:350px) {
+    body{
+        padding: 0px;
+    }
+
+    .homehelp{
+        font-size: 25px;
+        font-weight: normal;
+    }
+    .homebenefit{
+        font-size: 32px;
+        font-weight: bold;
+        width: 340px;
+        margin-left:72px ;
+    }
+    .HomeBox{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:350px) {
+    body{
+        padding: 0px;
+    }
+    .Home{
+        height:100vh;
+    }
+    .HomeBox{
+        width: 100%;
+        height: 100vh;
+    }
+    .homehelp{
+        font-size: 18px;
+        
+    }
+    .homebenefit{
+        font-size: 16px;
+        margin-left: 0px;
+        /* width: 100px; */
+        padding:10px;
+        margin-top: 2px;
+    
+        
+    }
+    .homeislamicedu{
+        width:auto;
+        margin-top: 1px;
+        margin-top: 32px;
+       
+
+    }
+}
+@media screen and (min-width:768px) and (max-width:1200px) {
+  body{
+    padding:0px;
+  }
+  .homebenefit{
+    padding: 57px;
+    position: relative;
+    font-size: 32px;
+    left:0px
+  }
+  .HomeBox{
+    width: 100vw;
+  }
+  .homebenefitf{
+    display: flex;
+    flex-direction: column;
+  }
+    
+}
+body{
+    
+}
+
+@media screen and (max-width:390px) and (min-width:352px)  {
+    .Home{
+        width: 100vw;
+    }
+    .HomeBox{
+        width: 100vw;
+    }
+    .homebenefit{
+        margin-left: 0px;
+    }
+    body{
+        padding:0px 0px 0px 0px;
+        overflow: none;
+    }
+    
+}
