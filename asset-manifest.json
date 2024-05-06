@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/OmerSohaill/MADRISAH-.git/static/css/main.04f036d6.css",
-    "main.js": "/OmerSohaill/MADRISAH-.git/static/js/main.7c8f5a2e.js",
+    "main.js": "/OmerSohaill/MADRISAH-.git/static/js/main.af803522.js",
     "static/js/453.ad6eb26e.chunk.js": "/OmerSohaill/MADRISAH-.git/static/js/453.ad6eb26e.chunk.js",
     "static/media/fa-solid-900.ttf": "/OmerSohaill/MADRISAH-.git/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
     "static/media/fa-brands-400.ttf": "/OmerSohaill/MADRISAH-.git/static/media/fa-brands-400.60127e352b7a11f7f1bc.ttf",
@@ -13,11 +13,11 @@
     "static/media/fa-v4compatibility.woff2": "/OmerSohaill/MADRISAH-.git/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
     "index.html": "/OmerSohaill/MADRISAH-.git/index.html",
     "main.04f036d6.css.map": "/OmerSohaill/MADRISAH-.git/static/css/main.04f036d6.css.map",
-    "main.7c8f5a2e.js.map": "/OmerSohaill/MADRISAH-.git/static/js/main.7c8f5a2e.js.map",
+    "main.af803522.js.map": "/OmerSohaill/MADRISAH-.git/static/js/main.af803522.js.map",
     "453.ad6eb26e.chunk.js.map": "/OmerSohaill/MADRISAH-.git/static/js/453.ad6eb26e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.04f036d6.css",
-    "static/js/main.7c8f5a2e.js"
+    "static/js/main.af803522.js"
   ]
 }
