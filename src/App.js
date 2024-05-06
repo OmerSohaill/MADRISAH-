@@ -4,6 +4,7 @@ import Nav from './com/nav'
 import Home from './com/home.js'
 import Contact from './com/contact.js';
 import { useState } from 'react';
+import Registration from './com/registration.js';
 function App() {
 
   function receive() {
@@ -33,8 +34,8 @@ function App() {
             element={<Contact/>}
           />
           <Route
-            path="/about"
-            element={''}
+            path="/registration"
+            element={<Registration/>}
             
           />
           <Route

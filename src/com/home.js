@@ -7,7 +7,8 @@ import Footer from './footer'
 import Youtube from './youtube'
 import { useState } from 'react'
 import ImageSlider from './slider'
-
+import Course from './coursedetail'
+import Donation from './donation'
 function Home (){
   
     return(
@@ -33,10 +34,12 @@ function Home (){
 
         </div>
         <Youtube/>
+        <Course/>
         <About/>
         <ImageSlider/>
         
         <Portfolio/>
+        <Donation/>
         <Team/>
         <Subscrib/>
         <Footer/>

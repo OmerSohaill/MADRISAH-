@@ -1,6 +1,52 @@
 @media screen and (min-width:1200px) {
-    .header{
-        padding:0 340px 0 340px ;
+    .header {
+      padding: 0 340px 0 340px;
     }
-    
-}
+  }
+  
+  .navr {
+    font-size: 32px;
+    font-weight: bolder;
+  }
+  
+  .nv:hover {
+    color: rgb(210, 27, 27);
+    font-weight: bold;
+  }
+  
+  .nv {
+    transition: color 0.3s ease, font-weight 0.3s ease, transform 0.3s ease, font-size 0.3s ease, box-shadow 0.3s ease; /* Adding transition for color, font-weight, transform, font-size, and box-shadow */
+  }
+  
+  .nv:hover {
+    color: rgb(210, 27, 27);
+    font-weight: bold;
+    transform: rotate(5deg); /* Rotate slightly */
+    font-size: 1.2em; /* Increase font size by 20% */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+  }
+  
+  .dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    z-index: 10;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+  
+  .dropdown-menu a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .dropdown-menu a:hover {
+    background-color: #f2f2f2;
+  }

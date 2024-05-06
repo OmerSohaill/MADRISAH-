@@ -59,9 +59,9 @@ width:30%;
         bottom: 400px;
     }
     .About{
-        padding: 100px;
+    padding: 100px;
     }
-    
+   
 }
 @media screen and (max-width:351px) {
     .aboutone{

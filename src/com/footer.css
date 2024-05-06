@@ -27,6 +27,7 @@ margin-top: 74px;
   }  
   .footerbox{
     margin-top: 43px;
+    
   }
 }
 .footerimg{
@@ -43,5 +44,22 @@ margin-top: 74px;
      object-fit: cover;
      object-position: bottom;
   }
-  
+  .fotrl{
+    display: flex;
+   
+  }
+  .Footer{
+    padding: 0px;
+    overflow: hidden;
+  }
+  .footeril{
+    display: none;
+  }
+  .footerlis{
+    margin-left: 25px;
+  }
+}
+
+.footerbox{
+  margin-left: 243px;
 }
