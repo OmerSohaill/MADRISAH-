@@ -51,11 +51,11 @@ function Nav(props) {
           <Link to="/contact" className="mr-5 hover:text-gray-900 nv">
             Contact Us
           </Link>
-          <a className="mr-5 hover:text-gray-900 nv">Login</a>
+          <a href="http://localhost:3001/login" className="mr-5 hover:text-gray-900 nv">Login</a>
           <Link to="/registration" className="mr-5 hover:text-gray-900 navr nv">
             Resgistration
           </Link>
-          <a className="mr-5 hover:text-gray-900 nv">Admin</a>
+          <a className="mr-5 hover:text-gray-900 nv"></a>
           <a className="mr-5 hover:text-gray-900 nv">
             <i onClick={changecolor} class="fas fa-moon" style={{ fontSize: '36px' }}></i>
           </a>
