@@ -1,0 +1,98 @@
+.Rinput{
+    margin-top: 38px;
+    margin-left: 34px;
+    border:solid;
+    margin-left: 50%;
+   
+
+}
+.rinp{
+    border:solid;
+    border-width: 0.01cqi ;
+    width:50%;
+    height:32px;
+   
+    padding:6px;
+   
+   
+}
+.rinp:hover{
+    border-color: #007BFF ;
+}
+
+  .Regbox{
+    padding:60px;
+
+  }
+  .pasreg{
+    position: relative;
+    top:59px;
+  }
+  .rgg{
+    margin-left: 11px;
+  }
+.basicinf{
+    font-size: 32px;
+    padding-left: 60px;
+  
+    
+}
+
+
+
+.rinp{
+    border:solid;
+    border-width: 0.01cqi ;
+    width:50%;
+    height:32px;
+   
+    padding:6px;
+   
+   
+}
+
+
+.rinp {
+    border: solid 1px #ccc; /* Border style */
+    width: 50%; /* Set width */
+    height: 32px; /* Set height */
+    padding: 6px; /* Padding inside the input */
+    font-size: 16px; /* Font size */
+    border-radius: 5px; /* Rounded corners */
+    outline: none; /* Remove default focus outline */
+    transition: border-color 0.3s ease; /* Smooth border color transition */
+}
+
+/* Hover and focus styles */
+.rinp:hover,
+.rinp:focus {
+    border-color: #999; /* Change border color on hover and focus */
+}
+
+/* Placeholder text style */
+.rinp::placeholder {
+    color: #999; /* Placeholder text color */
+}
+.bsreg{
+  margin-top: 53px;
+}
+.secondrip{
+  margin-top: 200px;
+}
+.secondrr{
+  margin-top: 65px;
+}
+.secondi{
+  margin-left: 100px;
+  width:50%;
+}
+@media screen and (max-width:767px) {
+  .Regbox{
+    padding:20px;
+
+  }
+  .bsreg{
+    margin-top: 0;
+  }
+  
+}
