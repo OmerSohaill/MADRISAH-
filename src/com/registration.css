@@ -86,6 +86,10 @@
   margin-left: 100px;
   width:50%;
 }
+.reginl{
+  position: relative;
+  left:40px;
+}
 @media screen and (max-width:767px) {
   .Regbox{
     padding:20px;
@@ -94,5 +98,22 @@
   .bsreg{
     margin-top: 0;
   }
+  
+}
+@media screen and (max-width:3500px) {
+  .rinp{
+    display: block;
+    width: 90%;
+  }
+  .Rinput{
+    display: block;
+    margin-left: 0%;
+    width: 90%;
+    margin-top: 70px;
+  }
+  .secondi{
+    margin-left: 0px;
+  }
+  
   
 }

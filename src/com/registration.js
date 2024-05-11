@@ -50,7 +50,7 @@ function Registration() {
             <div><span className='pasreg'>Skills *</span> <input className="Rinput rinp" placeholder='Your Skills' /></div>
           </div>
           <div className='Regbox bsreg'>
-          <div><span>Dates </span><input className='rinp secondi' placeholder='DD/MM/YY' type="calnder"/></div>
+          <div><span>Dates </span><input className='rinp secondi reginl' placeholder='DD/MM/YY' type="calnder"/></div>
           <div><span>of Birth </span></div>
           <div className='secondrip'><span>confirm </span> <input className='rinp secondi' placeholder='confirm-password' type="password"/></div>
           <div className=''><span>Password </span> </div>

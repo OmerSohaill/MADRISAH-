@@ -38,7 +38,8 @@ function Address() {
     return (
         <>
             <h1>Contact Information</h1>
-            <hr />
+            <hr></hr>
+          
             <h1 className='Addresscuri'>Current Residential Address</h1>
 
             <div className='Address grid md:grid-cols-2'>

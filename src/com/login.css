@@ -8,6 +8,7 @@
 .logim{
 
     height: 50%;
+    box-sizing: border-box;
 }
 .loginpone{
     margin-top: 50px;
@@ -81,4 +82,29 @@
 .loga:hover{
     color:#5463DC;
     
+}
+@media screen and (max-width:1200px) and (min-width:767px) {
+
+    .loginimg{
+        height:90vh;
+        padding: 30px;
+        
+    }
+    
+}
+@media screen and (max-width:767px) {
+    .loginimg{
+        padding:0px;
+        width:100%;
+    }
+    
+    we
+
+    .logim{
+        box-sizing: border-box;
+        height: 30%;
+    }
+    .logbtn{
+        margin-left: 0px;
+    }
 }
