@@ -31,10 +31,10 @@ function Donation() {
             <div className="donationbox">
                 <h1 className='donah'>Give Donation Get Times The Reward</h1>
                 <p>The Mosque started in 2020 and planning to be finished in 2025, a hard work for 5 years.</p>
-                <div className="donationf">
+                <div className="donationf ">
                     <span className="donaro">Amount required</span><span className="donaro">Amount received</span>
                     <span className="donaro">Amount remain</span>
-                    <div className="donationf">
+                    <div className="donationf ">
                         <span className="donaro">25000</span><span className="donaro">36000</span>
                         <span className="donaro">50000</span>
                     </div>

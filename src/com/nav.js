@@ -51,7 +51,7 @@ function Nav(props) {
           <Link to="/contact" className="mr-5 hover:text-gray-900 nv">
             Contact Us
           </Link>
-          <a href="http://localhost:3001/login" className="mr-5 hover:text-gray-900 nv">Login</a>
+          <Link to="/login" href="http://localhost:3001/login" className="mr-5 hover:text-gray-900 nv">Login</Link>
           <Link to="/registration" className="mr-5 hover:text-gray-900 navr nv">
             Resgistration
           </Link>

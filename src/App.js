@@ -5,6 +5,7 @@ import Home from './com/home.js'
 import Contact from './com/contact.js';
 import { useState } from 'react';
 import Registration from './com/registration.js';
+import Login from './com/login.js';
 function App() {
 
   function receive() {
@@ -39,8 +40,8 @@ function App() {
             
           />
           <Route
-            path="/contact"
-            element={''}
+            path="/login"
+            element={<Login/>}
             
           />
         </Routes>

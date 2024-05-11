@@ -1,0 +1,84 @@
+.loginimg{
+    background-color: #5E2DAD;
+    color:white;
+    padding:140px;
+    height: 100vh;
+    
+}
+.logim{
+
+    height: 50%;
+}
+.loginpone{
+    margin-top: 50px;
+}
+.loginptwo{
+    margin-top: 30px;
+}
+.loginsi{
+ 
+    display: flex;
+    height: 70vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:100px;
+
+}
+.logisign{
+    font-size: 32px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+
+}
+.logiin{
+    display: inline-block;
+    margin-top: 32px;
+    width: 80%;
+    height: 32px;
+    border: solid 1px #ccc;
+    border: solid 1px #ccc; /* Border style */
+    width: 50%; /* Set width */
+    height: 32px; /* Set height */
+    padding: 6px; /* Padding inside the input */
+    font-size: 16px; /* Font size */
+    border-radius: 5px; /* Rounded corners */
+    outline: none; /* Remove default focus outline */
+    transition: border-color 0.3s ease; /* Smooth border color transition */
+    
+    border:solid;
+    border-width: 0.01cqi ;
+    width:100%;
+    height:32px;
+
+   
+    padding:6px;
+  
+  
+};
+
+.logiin:hover,
+.logiin:focus {
+    border-color: #999; /* Change border color on hover and focus */
+}
+
+/* Placeholder text style */
+.logiin::placeholder {
+    color: #999; /* Placeholder text color */
+}
+.logbtn{
+    width:140px;
+    height: 53px;
+     border:solid;
+     margin-top: 65px;
+     margin-left: 220px;
+    background-color: #5463DC;
+    color:white;
+}
+.logbtn:hover{
+    background-color: #5866cf;
+}
+.loga:hover{
+    color:#5463DC;
+    
+}
