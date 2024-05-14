@@ -15,7 +15,7 @@ function Nav() {
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top head" data-bs-theme="dark">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             <img className='navimg' src="https://media.istockphoto.com/id/1585278298/vector/islamic-mosque-building-isolated-on-white-backbround.jpg?s=612x612&w=0&k=20&c=oQsST-hW4ZU_vrX6cnvvUz313d7Q0crq3_RHeaqvJnQ=" alt="mosque"/>

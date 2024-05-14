@@ -5,7 +5,7 @@ body{
 .Home{
     background-image: url('https://images.unsplash.com/photo-1680801935072-3f8cb58cc002?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     height:90vh;
-    width: 100vw;
+    width: auto;
     background-size: cover;
     background-position: center;
     
@@ -127,37 +127,47 @@ body{
     padding:0px;
   }
   .homebenefit{
-    padding: 57px;
+    padding: 27px;
     position: relative;
     font-size: 32px;
     left:0px
   }
   .HomeBox{
-    width: 100vw;
+    width: auto;
   }
   .homebenefitf{
     display: flex;
     flex-direction: column;
   }
+  .Home{
+    width: auto;
+    
+  }
     
 }
+
 body{
     
 }
 
-@media screen and (max-width:390px) and (min-width:352px)  {
+@media screen and (max-width:420px) and (min-width:245px)  {
     .Home{
-        width: 100vw;
+        width: auto;
     }
     .HomeBox{
-        width: 100vw;
+        width: 100%;
+        
     }
     .homebenefit{
         margin-left: 0px;
     }
+    .homeislamicedu{
+        width: auto;
+
+    }
     body{
         padding:0px 0px 0px 0px;
-        overflow: none;
+       
     }
     
 }
