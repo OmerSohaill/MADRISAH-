@@ -50,6 +50,12 @@
    
    
 }
+.coursetype{
+  font-size: 22px;
+  color:red;
+  font-weight: bold;
+
+}
 
 
 .rinp {
@@ -90,6 +96,24 @@
   position: relative;
   left:40px;
 }
+.registerbutton{
+  border:solid;
+  height:32px;
+  width:100px;
+  background-color: #007BFF;
+  color:white;
+  border-top-left-radius: 30px;
+}
+.registerbutton:hover{
+  background-color: #698fb8;
+  
+}
+.regisbfl{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
 @media screen and (max-width:767px) {
   .Regbox{
     padding:20px;
@@ -115,5 +139,16 @@
     margin-left: 0px;
   }
   
+  
+}
+.radi{
+  margin-top: 43px;
+}
+.rido{
+  margin-top: 32px;
+}
+.rat{
+  font-size: 20px;
+  color:red;
   
 }
