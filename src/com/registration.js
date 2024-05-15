@@ -60,6 +60,10 @@ function Registration() {
            <div className='radi'>
                 <label className='rido rat' >Class Type</label>
                 <div>
+                  <div className='ccode coder'><label>Course Code</label></div>
+                  <input className='ccode codeinp' type="Number" name="coursecode" placeholder='Enter your Course Code'/>
+                </div>
+                <div>
                   <label className='rido' >Online</label>
                 <input className='rido' name="online"  type="radio"/>
 
@@ -81,6 +85,7 @@ function Registration() {
                 <div>
                   <label className='rido' >Femail</label>
                 <input  className='rido' name="femail" type="radio"/>
+
                 <hr></hr>
 
                 </div>
