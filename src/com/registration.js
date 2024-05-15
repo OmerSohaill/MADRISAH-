@@ -61,12 +61,12 @@ function Registration() {
                 <label className='rido rat' >Class Type</label>
                 <div>
                   <label className='rido' >Online</label>
-                <input className='rido'  type="radio"/>
+                <input className='rido' name="online"  type="radio"/>
 
                 </div>
                 <div>
                   <label className='rido' >Recorded</label>
-                  <input className='rido'  type="radio"/>
+                  <input className='rido' name="recorded"  type="radio"/>
 
                 </div>
                 <hr></hr>
@@ -74,13 +74,13 @@ function Registration() {
                 <label className='rido rat' >Gender</label>
                 <div>
                   <label className='rido' >Mail</label>
-                <input className='rido'  type="radio"/>
+                <input className='rido' name="mail"  type="radio"/>
                 
 
                 </div>
                 <div>
                   <label className='rido' >Femail</label>
-                <input  className='rido' type="radio"/>
+                <input  className='rido' name="femail" type="radio"/>
                 <hr></hr>
 
                 </div>
@@ -136,7 +136,7 @@ function Registration() {
                 <input
                   className='addinp'
                   type="text"
-                  name="disctrict"
+                  name="district"
                   placeholder="Select Your District"
                   onClick={() => setShowDistrictDropdown(!showDistrictDropdown)}
                   value={selectedDistrict}
