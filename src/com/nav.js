@@ -32,7 +32,11 @@ function Nav() {
                 <Link to="registration" className="nav-link navreg animated navreg" onMouseEnter={handleHover} onMouseLeave={handleMouseLeave}>Registrations</Link>
               </li>
               <li className="nav-item">
-                <Link to="/login" className="nav-link active" aria-disabled="true" style={navStyle} >Login</Link>
+              
+                <a  href="http://localhost:3001/logincheck" className="nav-link active" aria-disabled="true" style={navStyle} >Login</a>
+
+               
+                
               </li>
               <li className="nav-item">
                 <Link to="/contact" className="nav-link active" aria-disabled="true" style={navStyle}>Contact Us</Link>
