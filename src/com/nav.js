@@ -33,7 +33,7 @@ function Nav() {
               </li>
               <li className="nav-item">
               
-                <a  href="http://localhost:3001/logincheck" className="nav-link active" aria-disabled="true" style={navStyle} >Login</a>
+                <a  href="http://localhost:3001/login" className="nav-link active" aria-disabled="true" style={navStyle} >Login</a>
 
                
                 
