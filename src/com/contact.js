@@ -58,7 +58,7 @@ function Contact() {
     }).then(function(res){
       return res.json()
     }).then(function(data){
-      alert('success:',data)
+      alert(data)
     }).catch(function(error){
       alert(error)
     })
@@ -90,11 +90,11 @@ function Contact() {
                 Enter your Email or Phone num or both and your message
               </p>
               <div className="relative mb-4">
-                <label htmlFor="email" className="leading-7 text-sm text-gray-600">Email{email}</label>
+                <label htmlFor="email" className="leading-7 text-sm text-gray-600">Email</label>
                 <input type="email" onChange={onemailchange} id="email" name="email" className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
               </div>
               <div className="relative mb-4">
-                <label htmlFor="phone" className="leading-7 text-sm text-gray-600">Phone{num}</label>
+                <label htmlFor="phone" className="leading-7 text-sm text-gray-600">Phone</label>
                 <input type="number" onChange={onnumberchange} id="phone" name="phone" className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
               </div>
               <div className="relative mb-4">
